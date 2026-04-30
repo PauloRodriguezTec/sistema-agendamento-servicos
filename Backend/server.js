@@ -3,7 +3,7 @@ const cors = require('cors');
 
 // Importa rotas
 const authRoutes = require('./routes/auth');
-const bookingRoutes = require('./routes/bookings');
+const bookingRoutes = require('./Routes/booking');
 
 // Importa Sequelize e modelos
 const sequelize = require('./models/index');
